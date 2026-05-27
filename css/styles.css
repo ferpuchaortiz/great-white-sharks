@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f6f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: #0b3c5d;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+h1, h2, h3 {
+  color: #0b3c5d;
+}
+
+/* ====== IMÁGENES ====== */
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+
+.highlight-box {
+  background-color: #e3f4ff;
+  border-left: 0.5rem solid #00a8cc;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+
+.two-column .col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.two-column .col-left {
+  margin-right: 2%;
+}
+
+
+footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 0.1rem solid #ccc;
+}
+
+/* ====== RESPONSIVE ====== */
+
+@media (max-width: 48rem) {
+  nav li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .two-column .col {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}
